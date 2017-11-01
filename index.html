@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="ScoopThemes">
+    <meta name="ROBOTS" content=weleda">
+    <meta name="description" content="Натуральная косметика Weleda Kazakhstan">
+    <meta name="abstract" content="Натуральная косметика Weleda Kazakhstan">
+   
+    <meta name="author" content="weleda.com.kz">
+    <meta name="publisher" content="weleda.com.kz">
+    <meta name="copyright" content="weleda.com.kz">
+    <meta name="revisit-after" content="2 days">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+
+    <title>Натуральная косметика Weleda Kazakhstan</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/animations.css">
+
+    <!-- siimple style -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div class="cloud floating">
+        <img src="assets/img/cloud.png" alt="Scoop Themes">
+    </div>
+
+    <div class="cloud pos1 fliped floating">
+        <img src="assets/img/cloud.png" alt="Scoop Themes">
+    </div>
+
+    <div class="cloud pos2 floating">
+        <img src="assets/img/cloud.png" alt="Scoop Themes">
+    </div>
+
+    <div class="cloud pos3 fliped floating">
+        <img src="assets/img/cloud.png" alt="Scoop Themes">
+    </div>
+
+
+    <div id="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <img src="assets/img/logo.png" alt="Weleda logo" style="height: 150px;">
+                    <br/>
+                    <br/>
+                    <h2 class="subtitle">Идут технические работы. Вы можете оформить Ваш заказ по Whatsapp или Instagram Direct по ссылкам ниже</h2>
+                    <br/>
+             
+                    <form style="display: none" class="form-inline validate signup" action="http://scoopthemes.us8.list-manage.com/subscribe/post-json?u=c535e62cabdc2bfeb87bff6de&amp;id=d969b07f82&c=?" method="get" role="form">
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="EMAIL" id="exampleInputEmail1" placeholder="Enter your email address">
+                        </div>
+                        <input type="submit" name="subscribe" value="Get notified!" class="btn btn-theme">
+                    </form>
+                    <br/>
+                </div>
+                <div class="col-sm-12 align-center">
+                    <ul class="social-network social-circle">
+                        <li><a style="font-size: 40px;" href="https://www.instagram.com/weleda_kz" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li><a style="font-size: 40px;"  href="http://api.whatsapp.com/send?phone=77761810841" class="icoInstagram" title="Whatsapp"><i class="fa fa-whatsapp"></i></a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3">
+                    <p class="copyright">Copyright &copy; 2017 - <a href="https://weleda.com.kz">Натуральная косметика Weleda Kazakhstan</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://downloads.mailchimp.com/js/jquery.form-n-validate.js"></script>
+    <script>
+        
+$(document).ready( function () {
+    $('#wrapper').height($(document).height());
+    // I only have one form on the page but you can be more specific if need be.
+    var $form = $('form');
+
+    if ( $form.length > 0 ) {
+        $('form input[type="submit"]').bind('click', function ( event ) {
+            if ( event ) event.preventDefault();
+            // validate_input() is a validation function I wrote, you'll have to substitute this with your own.
+            if ( $form.validate() ) { register($form); }
+        });
+    }
+});
+
+
+
+
+    </script>
+
+</body>
+
+</html>
